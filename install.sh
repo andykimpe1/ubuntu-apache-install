@@ -1,5 +1,5 @@
 #!/bin/bash
-VERSION=5.6
+VERSION=7.4
 PORT=80
 PORTSSL=443
 read -e -p "Enter php mumber version 5.6 or 7.0 or 7.1 or 7.3 or 7.4 or 8.0 or 8.1 or 8.2 or 8.3: " -i "$VERSION" VERSION
