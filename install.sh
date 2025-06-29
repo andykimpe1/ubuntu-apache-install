@@ -16,7 +16,7 @@ apt-get update
 apt-get -y dist-upgrade
 apt-get -y install apache2 libapache2-mod-fcgid apache2-bin apache2-data apache2-utils php-pear
 apt-get -y install libapache2-mod-php$VERSION php$VERSION php$VERSION-common php$VERSION-fpm
-apt-get -y install php$VERSION-cli php$VERSION-mysql php$VERSION-gd php$VERSION-mcrypt php$VERSION-curl php$VERSION-imap 
+apt-get -y install php$VERSION-cli php$VERSION-mysql php$VERSION-gd php$VERSION-mcrypt php$VERSION-curl php$VERSION-imap php$VERSION-bz2 php$VERSION-zip
 apt-get -y install php$VERSION-xmlrpc php$VERSION-xsl php$VERSION-intl php$VERSION-dev php$VERSION-mbstring
 update-alternatives --set php /usr/bin/php$VERSION
 update-alternatives --set phar /usr/bin/phar$VERSION
